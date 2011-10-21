@@ -25,18 +25,18 @@ test:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: depot_test
+  database: rkdrnf_depot_test
   pool: 5
-  username: root
-  password:
+  username: rkdrnf
+  password: dkswnsgud
   socket: /var/run/mysqld/mysqld.sock
 
 production:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: depot_production
+  database: rkdrnf_depot_production
   pool: 5
-  username: root
-  password:
+  username: rkdrnf
+  password: dkswnsgud
   socket: /var/run/mysqld/mysqld.sock
